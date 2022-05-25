@@ -1,0 +1,29 @@
+{
+    "name": "mageshop/module-ajaxshoppingaartupdate",
+    "description": "Dynamically update shopping cart quantities.",
+    "type": "magento2-module",
+    "license": [
+
+    ],
+    "authors": [
+        {
+            "email": "daniel@tryideas.com.br",
+            "name": "Mageshop"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MageShop\\AjaxShoppingCartUpdate\\": ""
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "MageShop/AjaxShoppingCartUpdate"
+            ]
+        ]
+    }
+}
